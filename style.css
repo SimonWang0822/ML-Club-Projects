@@ -87,7 +87,7 @@ header p {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .teaching-gallery img {
