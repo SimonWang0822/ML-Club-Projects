@@ -26,18 +26,6 @@ header p {
   color: #c9d1d9;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -87,13 +75,13 @@ header p {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  padding: 1rem;
 }
 
 .teaching-gallery img {
   width: 45%;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
 }
 
 footer {
