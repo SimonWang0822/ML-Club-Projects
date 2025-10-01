@@ -75,6 +75,7 @@ header p {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  padding: 0.5rem;
 }
 
 .teaching-gallery img {
