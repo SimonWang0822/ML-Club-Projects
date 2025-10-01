@@ -22,6 +22,18 @@ header p {
   color: #c9d1d9;
 }
 
+.column {
+  float: left;
+  width: 50.00%;
+  padding: 5px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
