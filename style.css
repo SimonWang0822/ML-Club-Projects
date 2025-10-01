@@ -75,11 +75,11 @@ header p {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .teaching-gallery img {
-  width: 48%;
+  width: 46%;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
