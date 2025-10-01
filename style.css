@@ -83,6 +83,19 @@ header p {
   background: #1f6feb;
 }
 
+.teaching-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.teaching-gallery img {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 footer {
   text-align: center;
   padding: 1.5rem;
